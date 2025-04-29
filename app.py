@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 
-st.title("Super Basic Photo Editor")
+st.title("Basic Photo Editor (v 1.0)")
 
 def display_figures(img1, img2):
     fig1_left, fig2_right = st.columns(2)
